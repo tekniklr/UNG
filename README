@@ -1,0 +1,25 @@
+UNG (UNG’s Not Gallery) is a PHP image gallery script for control freaks,
+tweakers, and other power users.
+
+It browses subdirectories (uploaded manually via FTP/SCP/etc) of a
+specified location and creates a hierarchy of categories and pictures. It
+automatically creates thumbnails for images that don’t have them already
+and has an optional comment system so people can discuss posted pictures.
+
+I originally made this just for my own use, but I was told that other
+people may be interested in utilizing something like this, so I made the
+source available and started accepting patches from others. Since then
+I’ve moved on to a gallery more integrated with my WordPress blog, but
+that was only for the integration and not because of any fault I had with
+UNG.
+
+The code is pretty messy- I wrote this in one go back when I was still new
+to PHP and haven’t really gone over it to any great (well, any) extent 
+since then. Add to that the modifications submitted by others, and you’re 
+left with a jumble of code that works by virtue of sheer stubbornness.
+Needless to say, The code is probably very redundant with tons of 
+extraneous things. If it isn’t, then forget I said that :)
+
+To use it, just save the .txt file as a .php file on your webserver and 
+change some configuration values. Instructions and Changelog are included 
+near the top of the file.
